@@ -16,19 +16,19 @@ function AppContent(){
              <p className="text-xl text-gray-300">A comprehensive guide to understanding <span className=" border border-red-500 px-1 pb-1 rounded-md"> props</span> in react.</p>
          </header>
          <div className="space-y-8">
-              <div className="scroll-mt-400" id="basic">
+              <div className="scroll-mt-100" id="basic">
                    <BasicProps />
               </div>
-              <div className="scroll-mt-400" id="children">
+              <div className="scroll-mt-100" id="children">
                    <ChildrenProps />
               </div>
-              <div className="scroll-mt-400" id="ref">
+              <div className="scroll-mt-100" id="ref">
                    <RefProps />
               </div>
-              <div className="scroll-mt-400" id="complex">
+              <div className="scroll-mt-100" id="complex">
                    <ComplexProps />
               </div>
-              <div className="scroll-mt-400" id="theme">
+              <div className="scroll-mt-100" id="theme">
                    <ThemeProps />
               </div>
          </div>

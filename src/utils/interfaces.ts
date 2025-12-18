@@ -5,3 +5,9 @@ export interface IButton extends React.ComponentProps<'button'>{
     size ?: 'small'|'medium'|'large';
     className ?: string;
 }
+
+export interface ICard {
+     children : React.ReactNode;
+     color ?: "green"|"blue"|"purple"|"orange";
+     title : string;
+}
