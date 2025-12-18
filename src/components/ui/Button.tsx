@@ -3,10 +3,11 @@ import clsx from "clsx";
 
 export default function Button({children, className, size="medium", variant="primary", ...props}: IButton){
 
-    const baseStyle = "border hover:cursor-pointer rounded-sm";
+    const baseStyle = "border rounded-sm";
+    const disable = "opacity-50 cursor-not-allowed"
     
     const variants = {
-         primary : "bg-blue-700 text-white border-gray-600 hover:bg-blue-800",
+         primary : "bg-blue-600 text-white border-gray-600 hover:bg-blue-800",
 
          secondary : "bg-green-600 text-white border-black hover:bg-green-700",
 
@@ -20,6 +21,6 @@ export default function Button({children, className, size="medium", variant="pri
     }
 
     return (
-        <button  {...props}  className={clsx(baseStyle, variants[variant], sizes[size], className)} > {children} </button>
+        <button  {...props}  className={clsx(baseStyle, variants[variant], sizes[size], className, `${props.disabled ? disable: "cursor-pointer"}` )} > {children} </button>
     )
 }
