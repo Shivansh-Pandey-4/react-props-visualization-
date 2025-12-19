@@ -15,7 +15,7 @@ function AppContent(){
              <h1 className="text-5xl font-bold mb-4 text-white">React Props Explained.</h1>
              <p className="text-xl text-gray-300">A comprehensive guide to understanding <span className=" border border-red-500 px-1 pb-1 rounded-md"> props</span> in react.</p>
          </header>
-         <div className="space-y-8">
+         <div className="space-y-8 mx-10">
               <div className="scroll-mt-100" id="basic">
                    <BasicProps />
               </div>

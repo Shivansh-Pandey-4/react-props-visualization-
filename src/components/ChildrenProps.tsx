@@ -4,7 +4,7 @@ import Button from "./ui/Button";
 export default function ChildrenProps(){
 
     return (
-        <div className="bg-white border rounded-sm py-5 px-8 scroll-mt-24">
+        <div className="bg-white border rounded-lg py-5 px-8 scroll-mt-24">
 
              <h1 className="text-black text-3xl font-bold mb-1">Children Props.</h1>
         

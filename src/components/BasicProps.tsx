@@ -7,7 +7,7 @@ export default function BasicProps(){
     const [disable, setDisable] = useState<boolean>(false);
 
     return (
-        <div className="bg-white border rounded-sm py-5 px-8">
+        <div className="bg-white border rounded-lg py-5 px-8">
              <h1 className="text-black text-3xl font-bold mb-1">Basic Props.</h1>
 
              <p className="mb-4 mt-2 text-gray-600">Props are arguments passed to React Components. They allow you to pass data from parent to child components.</p>
