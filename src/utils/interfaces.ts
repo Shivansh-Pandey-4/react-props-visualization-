@@ -11,3 +11,10 @@ export interface ICard {
      color ?: "green"|"blue"|"purple"|"orange";
      title : string;
 }
+
+export interface IUserCard extends Pick<ICard, "children"|"color">{
+        profilePic ?: string; 
+        userName : string;
+        email ?: string;
+        tags ?: string[]
+}
