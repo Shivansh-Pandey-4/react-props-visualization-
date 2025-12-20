@@ -18,3 +18,7 @@ export interface IUserCard extends Pick<ICard, "children"|"color">{
         email ?: string;
         tags ?: string[]
 }
+
+export interface IInput extends React.ComponentProps<'input'>{
+     className ?: string;
+}
